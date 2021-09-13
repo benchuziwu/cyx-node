@@ -13,7 +13,7 @@ let REDIS_CONF = {
 let MYSQL_CONF = {
     host: 'localhost',
     user: 'root',
-    password: 'Mysql_2018',
+    password: 'cyx199303',
     port: '3306',
     database: 'koa2_weibo_db'
 }
@@ -29,7 +29,7 @@ if (isProd) {
         // 线上的 mysql 配置
         host: 'localhost',
         user: 'root',
-        password: 'Mysql_2018',
+        password: 'cyx199303',
         port: '3306',
         database: 'koa2_weibo_db'
     }
